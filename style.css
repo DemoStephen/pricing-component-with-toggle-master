@@ -28,7 +28,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: var(--grayishBlue)
+    color: var(--grayishBlue);
+    padding: 1rem 0;
 }
 header{
     margin: 0 0 3rem 0;
@@ -155,6 +156,7 @@ button{
 @media (max-width:851px){
     body{
         padding: 2rem 0;
+        min-height: unset;
     }
     main{
         flex-direction: column;
