@@ -8,6 +8,7 @@
     --lightGrayishBlue: hsl(234, 14%, 74%);
     --grayishBlue: hsl(233, 13%, 49%);
     --darkGrayishBlue: hsl(232, 13%, 33%);
+    --fontSize:  0.9375;
 }
 *,*::before,*::after{
     margin: 0;
@@ -16,7 +17,7 @@
 }
 body{
     font-family: 'Montserrat',sans-serif;
-    font-size: 0.9375;
+    font-size: var(--fontSize);
 }
 button{
     cursor: pointer;
